@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+numpy
+pandas
+pydantic
+# scikit-learn
+scikit-learn==1.6.1
+pickle-mixin
+google-generativeai
+python-dotenv
