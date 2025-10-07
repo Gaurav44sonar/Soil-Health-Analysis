@@ -57,7 +57,7 @@ function App() {
 
       // Send soil data to FastAPI
       const response = await axios.post(
-        'http://localhost:8000/predict',
+        'https://soil-health-api-latest.onrender.com/predict',
         soilData,
         { headers: { "Content-Type": "application/json" } }
       );
